@@ -1,7 +1,14 @@
 /**
- * Sample class for COMP-3021 Assignment 2.
+ * Sample utility class for COMP-3021 Assignment 2.
  */
-class sample {
+public final class Sample {
+    /**
+     * Private constructor to hide the implicit public one.
+     */
+    private Sample() {
+        // Utility class should not be instantiated
+    }
+
     /**
      * Main method that prints hello.
      * 
