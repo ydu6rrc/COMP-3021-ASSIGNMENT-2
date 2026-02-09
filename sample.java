@@ -1,20 +1,17 @@
 /**
- * Sample utility class for COMP-3021 Assignment 2.
+ * Sample utility class for COMP-3021.
  */
 public final class Sample {
-    /**
-     * Private constructor to hide the implicit public one.
-     */
+    /** Private constructor. */
     private Sample() {
-        // Utility class should not be instantiated
     }
 
     /**
-     * Main method that prints hello.
-     * 
-     * @param args command line arguments.
+     * Main method.
+     *
+     * @param args arguments.
      */
     public static void main(final String[] args) {
-        System.out.println("hello");
+        System.out.println("Hello World");
     }
 }
