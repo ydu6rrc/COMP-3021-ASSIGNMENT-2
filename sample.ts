@@ -1,10 +1,5 @@
-/**
- * Sample TypeScript function.
- * @returns A simple string.
- */
+/** @returns string */
 function getGreeting(): string {
-  const greeting = "hello from typescript";
-  return greeting;
+  return "hello from typescript";
 }
-
 console.log(getGreeting());
